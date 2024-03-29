@@ -3,7 +3,8 @@
     "description": "PHP PSR-14 Event Dispatcher Implementation",
     "type": "metapackage",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "potter/event-dispatcher-interface": "dev-main"
     },
     "license": "MIT",
     "authors": [
