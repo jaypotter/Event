@@ -4,8 +4,7 @@
     "type": "metapackage",
     "require": {
         "php": "^8.3",
-        "potter/event-dispatcher-interface": "dev-main",
-        "potter/listener-provider-interface": "dev-main",
+        "potter/event-interfaces": "dev-main",
         "potter/stoppable-event": "dev-main"
     },
     "license": "MIT",
