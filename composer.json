@@ -1,7 +1,7 @@
 {
     "name": "potter/event",
     "description": "PHP PSR-14 Event Dispatcher Implementation",
-    "type": "metapackage",
+    "type": "library",
     "require": {
         "php": "^8.3",
         "potter/event-interfaces": "dev-main",
@@ -13,6 +13,11 @@
         "potter/framework": "dev-main"
     },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Event\\": "src/Potter/Event/"
+        }
+    },
     "authors": [
         {
             "name": "Jay Potter",
