@@ -13,5 +13,6 @@ final class Event extends AbstractEvent
     public function __construct(string $id, EmitterInterface $emitter)
     {
         $this->setId($id);
+        $this->setEmitter($emitter);
     }
 }
