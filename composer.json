@@ -4,10 +4,10 @@
     "type": "library",
     "require": {
         "php": "^8.3",
-        "potter/event-interfaces": "dev-main",
-        "potter/event-traits": "dev-main",
-        "potter/event-dispatcher": "dev-main",
-        "potter/stoppable-event": "dev-main"
+        "potter/stoppable-event": "v0.0.1-alpha@alpha",
+        "potter/event-interfaces": "v0.0.1-alpha@alpha",
+        "potter/event-traits": "v0.0.1-alpha@alpha",
+        "potter/event-dispatcher": "v0.0.1-alpha@alpha"
     },
     "suggest": {
         "potter/components": "dev-main",
@@ -25,5 +25,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "alpha"
 }
