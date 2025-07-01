@@ -1,2 +1,1 @@
-# Event
-PHP PSR-14 Event Dispatcher Implementation
+# PHP PSR-14 Event Dispatcher Implementation
