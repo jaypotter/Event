@@ -3,7 +3,9 @@
     "description": "PHP PSR-14 Event Dispatcher Implementation",
     "type": "library",
     "require": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "psr/event-dispatcher": "^1.0",
+        "symfony/event-dispatcher": "^7.3"
     },
     "license": "MIT",
     "autoload": {
