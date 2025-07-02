@@ -5,6 +5,6 @@ declare(strict_types=1);
 namespace Potter\EventDispatcher;
 
 interface EventDispatcherInterface
-    extends \Psr\EventDispatcher\EventDispatcherInterface,
-            \Symfony\Component\EventDispatcher\EventDispatcherInterface
+    extends \League\Event\EventDispatchingListenerRegistry,
+            \Psr\EventDispatcher\EventDispatcherInterface
 { }
